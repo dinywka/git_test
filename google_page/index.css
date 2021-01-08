@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header {
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;   
+}
+
+#header-text {
+    text-decoration: none;
+    color: #000000DE;
+    padding: 10px;
+}
+
+#header-text:hover {
+    text-decoration: underline;
+}
+header #logo-pic {
+ width: 32px;
+ height: 32px;
+ border-radius: 16px;
+ margin: -1px;
+}
+
+#google-area {
+position: relative;
+padding-top: 250px;
+}
+
+#google-pic {
+    height: 92px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#search {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    height: 46px;
+    width: 65%;
+    border: solid 1px lightgray;
+    border-radius: 23px;
+}
+#search:hover {
+    color: white;
+    box-shadow: 2px 2px 4px #000000DE;
+}
+#buttons {
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+button {
+    background-color: #F9F9FA;
+    border: solid 1px #F9F9FA;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    margin: 6px;
+    margin-top: 4em;
+}
+
+button:hover {
+    box-shadow: 1px 1px 2px #000000DE;
+}
+p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #202124;
+}
+#language {
+    text-decoration: underline;
+    color: blue;
+}
+#kaz {
+    background-color: #f2f2f2;
+    font-size: 15px;
+    color: #70757A;
+    padding: 4px;
+    margin: 10px;
+}
+footer {
+    background-color: #f2f2f2; 
+    position: absolute;
+    left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100px;
+
+}
+@media (max-width: 600px) {
+    footer {
+        width: 100%;
+    }
+}
+#footer-text {
+
+    text-decoration: none;
+    color: #70757A;
+    font-size: 14px;
+    padding: 4px;
+    margin: 10px;
+}
+@media (max-width: 600px) {
+    #footer-text {
+        text-align: center;
+    }
+}
+* {
+    box-sizing: border-box;
+  }
+
+  #child1 {
+      width: 60%;
+      float: left;
+  }
+
+  #child2 {
+    width: 30%;
+    float: right;
+
+}
+
+div#viewport {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+#viewport {
+    min-height: 100%;
+}
+@media (max-width: 200px) {
+    #viewport {
+        width: 100%;
+        height: auto;
+    }
+}
